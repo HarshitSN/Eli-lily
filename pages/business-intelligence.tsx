@@ -26,7 +26,7 @@ export default function BusinessIntelligencePage() {
     return (
         <Layout>
             <Head>
-                <title>BUSINESS INTELLIGENCE & ANALYTICS (BI&A) - StatusNeo AI Playground</title>
+                <title>BUSINESS INTELLIGENCE & ANALYTICS (BI&A) - Eli Lilly AI Playground</title>
                 <meta name="description" content="Explore our Business Intelligence & Analytics agents." />
             </Head>
 

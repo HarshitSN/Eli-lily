@@ -17,13 +17,13 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
     setIsLoading(true);
 
     const success = login(email);
-    
+
     if (success) {
       onSuccess?.();
     } else {
-      setError('Only @statusneo.com email addresses are allowed');
+      setError('Please enter a valid email address');
     }
-    
+
     setIsLoading(false);
   };
 
@@ -37,13 +37,13 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
             </svg>
           </div>
           <h2 className="mt-4 sm:mt-6 text-center text-2xl sm:text-3xl font-extrabold text-gray-900">
-            StatusNeo AI Playground
+            Eli Lilly AI Playground
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
-            Enter your @statusneo.com email to access
+            Enter your email to access
           </p>
         </div>
-        
+
         <form className="mt-6 sm:mt-8 space-y-6" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700">
@@ -58,7 +58,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onSuccess }) => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-              placeholder="your.name@statusneo.com"
+              placeholder="your.name@lilly.com"
             />
           </div>
 

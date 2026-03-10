@@ -9,8 +9,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <AuthProvider>
             <>
                 <Head>
-                    <title>StatusNeo AI Playground</title>
-                    <meta name="description" content="StatusNeo AI Solutions Showcase" />
+                    <title>Eli Lilly AI Playground</title>
+                    <meta name="description" content="Eli Lilly AI Solutions Showcase" />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                 </Head>
                 <main className="font-sans">

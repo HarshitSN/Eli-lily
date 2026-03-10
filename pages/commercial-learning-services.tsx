@@ -21,7 +21,7 @@ export default function CommercialLearningServicesPage() {
     return (
         <Layout>
             <Head>
-                <title>COMMERCIAL LEARNING SERVICES (CLS) - StatusNeo AI Playground</title>
+                <title>COMMERCIAL LEARNING SERVICES (CLS) - Eli Lilly AI Playground</title>
                 <meta name="description" content="Explore our Commercial Learning Services agents." />
             </Head>
 

@@ -93,7 +93,7 @@ export default function CatalogPage({ pillar, items }: CatalogPageProps) {
     return (
         <Layout>
             <Head>
-                <title>{`${pillarTitle} - StatusNeo AI Playground`}</title>
+                <title>{`${pillarTitle} - Eli Lilly AI Playground`}</title>
             </Head>
 
             <div className="bg-secondary/20 border-b">

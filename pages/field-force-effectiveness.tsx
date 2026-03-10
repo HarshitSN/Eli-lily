@@ -21,7 +21,7 @@ export default function FieldForceEffectivenessPage() {
     return (
         <Layout>
             <Head>
-                <title>GOSO – FIELD FORCE EFFECTIVENESS & INNOVATION - StatusNeo AI Playground</title>
+                <title>GOSO – FIELD FORCE EFFECTIVENESS & INNOVATION - Eli Lilly AI Playground</title>
                 <meta name="description" content="Explore our Field Force Effectiveness agents." />
             </Head>
 

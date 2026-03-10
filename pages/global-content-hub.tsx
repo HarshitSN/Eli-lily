@@ -22,7 +22,7 @@ export default function GlobalContentHubPage() {
     return (
         <Layout>
             <Head>
-                <title>GLOBAL CONTENT HUB (GCH) - StatusNeo AI Playground</title>
+                <title>GLOBAL CONTENT HUB (GCH) - Eli Lilly AI Playground</title>
                 <meta name="description" content="Explore our Global Content Hub agents." />
             </Head>
 

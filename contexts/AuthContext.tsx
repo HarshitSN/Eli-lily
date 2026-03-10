@@ -35,13 +35,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     }
   }, []);
 
-  const isValidStatusNeoEmail = (email: string): boolean => {
-    const emailRegex = /^[^\s@]+@statusneo\.com$/;
-    return emailRegex.test(email.toLowerCase());
-  };
-
   const login = (email: string): boolean => {
-    if (!isValidStatusNeoEmail(email)) {
+    if (!email || !email.includes('@')) {
       return false;
     }
 

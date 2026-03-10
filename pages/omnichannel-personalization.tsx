@@ -1,9 +1,14 @@
 
 import Head from "next/head";
 import { Layout } from "@/components/layout/Layout";
-import { VerticalCard } from "@/components/verticals/VerticalCard";
+import { ActionableCard } from "@/components/verticals/ActionableCard";
 
 const agents = [
+    {
+        title: "Pharmacovigilance Agent",
+        description: "Ingests adverse event reports, extracts key fields, and drafts safety case narratives for review.",
+        redirectUrl: "https://playground.statusneo.com/chat?agent=pharmacovigilance"
+    },
     {
         title: "Personalized HCP Engagement Content Generator",
         description: "Different healthcare professionals require tailored messaging depending on their specialty, prescribing behavior, and engagement preferences.\n\nGenAI can dynamically generate personalized engagement content for email campaigns, digital engagement channels, and rep follow-ups.\n\nBusiness Outcomes:\n• Improve HCP engagement rates\n• Deliver more relevant messaging to physicians\n• Increase effectiveness of omnichannel campaigns"
@@ -22,7 +27,7 @@ export default function OmnichannelPersonalizationPage() {
     return (
         <Layout>
             <Head>
-                <title>OMNICHANNEL & PERSONALIZATION - StatusNeo AI Playground</title>
+                <title>OMNICHANNEL & PERSONALIZATION - Eli Lilly AI Playground</title>
                 <meta name="description" content="Explore our Omnichannel & Personalization agents." />
             </Head>
 
@@ -40,10 +45,11 @@ export default function OmnichannelPersonalizationPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {agents.map((agent) => (
-                            <VerticalCard
+                            <ActionableCard
                                 key={agent.title}
                                 title={agent.title}
                                 description={agent.description}
+                                tryUrl={agent.redirectUrl}
                             />
                         ))}
                     </div>
