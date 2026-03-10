@@ -41,9 +41,12 @@ export default function BusinessIntelligencePage() {
                         <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl mb-4 uppercase">
                             BUSINESS INTELLIGENCE & ANALYTICS (BI&A)
                         </h2>
-                        <p className="text-lg text-slate-500 max-w-2xl mx-auto font-light">
+                        <p className="text-lg text-slate-500 max-w-2xl mx-auto font-light mb-4">
                             Explore Lilly's specialized business intelligence and analytical agents designed to optimize your commercial decision workflows.
                         </p>
+                        <div className="text-lg flex justify-center items-center font-medium text-slate-400">
+                            Powered by <span className="text-slate-600 font-bold ml-1">StatusNeo</span>
+                        </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

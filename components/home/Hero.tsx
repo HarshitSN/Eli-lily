@@ -53,7 +53,7 @@ export function Hero() {
                     />
                 </div>
 
-                <div className="text-sm font-medium text-slate-400 pt-2">
+                <div className="text-lg font-semibold text-slate-400 pt-2">
                     Powered by <span className="text-slate-600 font-bold">StatusNeo</span>
                 </div>
             </div>
