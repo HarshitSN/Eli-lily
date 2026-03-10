@@ -8,6 +8,15 @@ const internalApiUrl =
 
 const nextConfig: NextConfig = {
   output: "standalone",
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "delivery-p137454-e1438138.adobeaemcloud.com",
+        pathname: "/adobe/assets/**",
+      },
+    ],
+  },
   async rewrites() {
     return [
       {
