@@ -425,7 +425,7 @@ const pillars = [
         description: "Personalized HCP Engagement Content Generator, Campaign Performance Intelligence Assistant, etc.",
         icon: Terminal,
         href: "/omnichannel-personalization",
-        className: "md:col-span-1 md:row-span-1 md:col-start-2",
+        className: "md:col-span-1 md:row-span-1",
         diagram: <SDLCDiagram />
     },
     {
@@ -433,7 +433,7 @@ const pillars = [
         description: "AI-Assisted Training Content Development, Learning Copilot for Field Teams, etc.",
         icon: Layers,
         href: "/commercial-learning-services",
-        className: "md:col-span-1 md:row-span-1 md:col-start-3",
+        className: "sm:col-span-2 lg:col-span-2 md:row-span-1",
         diagram: <VerticalDiagram /> // reusing for now
     },
 ];
