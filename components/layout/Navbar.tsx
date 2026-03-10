@@ -1,11 +1,10 @@
 import Link from "next/link";
-import { useRouter } from "next/router"; // Router fix
-import { useAuth } from "@/contexts/AuthContext";
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 export function Navbar() {
-    const { user, logout } = useAuth();
+
     const router = useRouter();
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
