@@ -28,7 +28,7 @@ export function Hero() {
                 </div>
 
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-[1.1] sm:leading-[1.2]">
-                    Explore Our <span className="text-red-600">AgenticAI Factory</span> <br />
+                    Explore Our <span className="text-red-700 transition-all duration-300 hover:bg-red-600 hover:text-white px-2 py-1 rounded cursor-default inline-block">AgenticAI Factory</span> <br />
 
                 </h1>
 

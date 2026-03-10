@@ -10,7 +10,7 @@ const agents = [
     {
         title: "NeoAnalytics",
         description: "AI-powered data analytics and automated report generation with natural language queries.",
-        redirectUrl: "https://playground.statusneo.com/neo-analytics"
+        redirectUrl: "https://playground.statusneo.com/report-agent"
     },
     {
         title: "Conversational Commercial Analytics Assistant",

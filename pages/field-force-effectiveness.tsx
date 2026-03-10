@@ -1,8 +1,13 @@
 import Head from "next/head";
 import { Layout } from "@/components/layout/Layout";
-import { VerticalCard } from "@/components/verticals/VerticalCard";
+import { ActionableCard } from "@/components/verticals/ActionableCard";
 
 const agents = [
+    {
+        title: "Healthcare Voice Follow-up Agent",
+        description: "An AI-powered voice agent that can conduct post-visit follow-ups, patient adherence checks, or routine touchpoints on behalf of field representatives and medical liaisons.",
+        redirectUrl: "https://playground.statusneo.com/voice-agent?persona_id=healthcare_followup"
+    },
     {
         title: "AI Rep Copilot for HCP Engagement",
         description: "Sales representatives must prepare for interactions with healthcare professionals by reviewing HCP profiles, historical engagement, prescribing patterns, and relevant clinical updates.\n\nA GenAI-powered Rep Copilot can automatically generate personalized briefing notes before each HCP interaction.\n\nBusiness Outcomes:\n• Improve quality of HCP interactions\n• Increase rep productivity and preparation efficiency\n• Enable more personalized and relevant conversations with physicians"
@@ -39,10 +44,11 @@ export default function FieldForceEffectivenessPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {agents.map((agent) => (
-                            <VerticalCard
+                            <ActionableCard
                                 key={agent.title}
                                 title={agent.title}
                                 description={agent.description}
+                                tryUrl={(agent as any).redirectUrl}
                             />
                         ))}
                     </div>
