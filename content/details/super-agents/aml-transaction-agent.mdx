@@ -1,0 +1,66 @@
+# AML Transaction Monitoring Agent
+
+AI-powered agent that detects 10+ money laundering patterns using graph-based analysis and machine learning.
+
+## Overview
+
+The AML Transaction Monitoring Agent is an enterprise-grade solution designed to detect and prevent financial crimes. It analyzes transaction patterns in real-time, identifying suspicious activities across multiple laundering schemes.
+
+## Features
+
+### Pattern Detection Engine
+- **Round-Tripping Detection**: Identifies circular fund flows that return to origin disguised as legitimate revenue
+- **Funnel Account Detection**: Detects fan-in/fan-out patterns used to launder cash
+- **Multi-Tier Layering**: Traces funds through complex chains of entities
+- **Synthetic Identity Rings**: Identifies fake identities sharing common attributes
+- **U-Turn Loan Detection**: Flags self-loans from offshore entities
+- **Corporate Structure Analysis**: Unmasks beneficial owners behind shell companies
+- **Correspondent Banking Nesting**: Detects hidden downstream clients
+- **Tight-Knit Money Circles**: Identifies closed networks of accounts
+- **Scatter-Gather (Smurfing)**: Detects structured transactions below reporting thresholds
+- **Crypto Mixing Detection**: Tracks cryptocurrency through mixers and tumblers
+
+### Risk Scoring
+- Real-time risk scoring based on multiple factors
+- Severity levels: Low, Medium, High, Critical
+- Entity multipliers and context factors
+
+### Graph Visualization
+- Interactive network graphs showing entity relationships
+- Transaction flow visualization
+- Pattern highlighting
+
+### Alert Management
+- Automated alert generation
+- Investigation workflows
+- Case management integration
+
+## Supported Patterns
+
+| Pattern | Description | Detection Method |
+|---------|-------------|-----------------|
+| Round-Tripping | Circular fund flows returning to origin | Cycle detection in graph |
+| Funnel Accounts | Central hub collecting small deposits | Volume and velocity analysis |
+| Multi-Tier Layering | Sequential transfers through 3+ entities | Chain traversal |
+| Synthetic Identity | Shared attributes across multiple accounts | Attribute clustering |
+| U-Turn Loans | Self-loans from offshore entities | Ownership analysis |
+| Corporate Structures | Hidden beneficial owners | Ownership graph traversal |
+| Correspondent Nesting | Hidden downstream institutions | Transaction pattern analysis |
+| Money Circles | Closed networks of accounts | SCC detection |
+| Scatter-Gather | Structured deposits below $10k | Threshold analysis |
+| Crypto Mixing | Cryptocurrency obfuscation | Wallet clustering |
+
+## Tech Stack
+
+- **Backend**: Python with NetworkX, scikit-learn
+- **Frontend**: React, TypeScript, D3.js
+- **Database**: PostgreSQL with graph extensions
+- **API**: RESTful endpoints
+
+## Use Cases
+
+- Banking transaction monitoring
+- Payment processor surveillance
+- Cryptocurrency exchange compliance
+- Insurance fraud detection
+- Trade-based money laundering detection

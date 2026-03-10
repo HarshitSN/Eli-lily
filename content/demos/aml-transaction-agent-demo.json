@@ -1,0 +1,35 @@
+{
+    "itemId": "aml-transaction-agent",
+    "steps": [
+        {
+            "id": "step-1",
+            "title": "Load Sample Data",
+            "description": "The system loads a dataset of 500 synthetic transactions representing typical banking activity with embedded money laundering patterns."
+        },
+        {
+            "id": "step-2",
+            "title": "Run Pattern Analysis",
+            "description": "Click 'Analyze' to execute the pattern detection engine. The agent will scan all transactions for the 10+ known laundering patterns."
+        },
+        {
+            "id": "step-3",
+            "title": "Review Generated Alerts",
+            "description": "The system displays detected alerts with severity levels. Each alert is tagged with the specific pattern detected (e.g., Round-Tripping, Funnel Account)."
+        },
+        {
+            "id": "step-4",
+            "title": "Investigate Alert Details",
+            "description": "Click on an alert to see involved accounts, transaction IDs, pattern indicators, and risk score breakdown."
+        },
+        {
+            "id": "step-5",
+            "title": "View Network Graph",
+            "description": "Explore the interactive graph visualization showing entity relationships and transaction flows between accounts."
+        },
+        {
+            "id": "step-6",
+            "title": "Resolve Alert",
+            "description": "Mark the alert as resolved with investigation notes. This demonstrates the case management workflow."
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "id": "aviation-ops-assistant",
+        "type": "vertical_solution",
+        "title": "Aviation Ops Assistant",
+        "shortDescription": "AI-powered assistant for optimizing ground operations and crew scheduling.",
+        "industryTags": [
+            "aviation",
+            "logistics"
+        ],
+        "capabilityTags": [
+            "conversational_ai",
+            "optimization"
+        ],
+        "personaFit": [
+            "ops",
+            "engineering"
+        ],
+        "maturityLevel": "production",
+        "demoModes": [
+            "interactive"
+        ],
+        "interactiveUrl": "https://statusneo-demo.com/aviation",
+        "techStack": [
+            "openai",
+            "react",
+            "python"
+        ],
+        "owner": "Aviation Vertical Team",
+        "lastUpdated": "2024-01-15T00:00:00Z",
+        "isFeatured": true,
+        "slug": "aviation-ops-assistant"
+    },
+    {
+        "id": "healthcare-compliance-agent",
+        "type": "vertical_solution",
+        "title": "Healthcare Compliance Agent",
+        "shortDescription": "Automated HIPAA compliance checking for patient data workflows.",
+        "industryTags": [
+            "healthcare"
+        ],
+        "capabilityTags": [
+            "compliance",
+            "automation"
+        ],
+        "personaFit": [
+            "security",
+            "ops"
+        ],
+        "maturityLevel": "production",
+        "demoModes": [
+            "video"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "techStack": [
+            "langchain",
+            "azure"
+        ],
+        "owner": "Healthcare Vertical Team",
+        "lastUpdated": "2024-01-20T00:00:00Z",
+        "isFeatured": true,
+        "slug": "healthcare-compliance-agent"
+    },
+    {
+        "id": "banking-voice-agent",
+        "type": "vertical_solution",
+        "title": "Banking Voice Agent",
+        "shortDescription": "AI-powered voice calling system for automated debt collection and customer payment reminders.",
+        "industryTags": [
+            "banking",
+            "financial_services",
+            "insurance"
+        ],
+        "capabilityTags": [
+            "voice_ai",
+            "automation",
+            "customer_service",
+            "compliance"
+        ],
+        "personaFit": [
+            "collections",
+            "customer_service",
+            "ops"
+        ],
+        "maturityLevel": "production",
+        "demoModes": [
+            "interactive"
+        ],
+        "interactiveUrl": "/banking-voice",
+        "techStack": [
+            "vapi_ai",
+            "openai",
+            "fastapi",
+            "react",
+            "python"
+        ],
+        "owner": "BFSI Vertical Team",
+        "lastUpdated": "2024-02-23T00:00:00Z",
+        "isFeatured": true,
+        "slug": "banking-voice-agent"
+    }
+]

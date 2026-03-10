@@ -1,0 +1,5 @@
+<!-- StatusNeo Logo with yellow dot to the right -->
+<svg width="140" height="40" viewBox="0 0 140 40" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">StatusNeo</text>
+  <circle cx="115" cy="20" r="8" fill="#facc15"/>
+</svg>

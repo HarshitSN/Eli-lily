@@ -1,0 +1,20 @@
+{
+    "itemId": "aviation-ops-assistant",
+    "steps": [
+        {
+            "id": "step-1",
+            "title": "Launch the Assistant",
+            "description": "Click the microphone icon to activate the voice interface for the Ops Assistant."
+        },
+        {
+            "id": "step-2",
+            "title": "Ask for Flight Status",
+            "description": "Try saying: 'What is the current status of Flight 303 to London?'"
+        },
+        {
+            "id": "step-3",
+            "title": "Review Crew Legality",
+            "description": "The system detects a crew timeout issue. Click 'View Recommendations' to see options."
+        }
+    ]
+}

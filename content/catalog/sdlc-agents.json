@@ -1,0 +1,90 @@
+[
+    {
+        "id": "sync-ai-agent",
+        "type": "sdlc_agent",
+        "title": "Sync AI \u2014 Roadmap & Risk Intelligence",
+        "shortDescription": "Miles turns strategy into a clear, execution-ready product roadmap with built-in constraints, milestones, and reality checks. Iris analyzes the roadmap to generate a complete risk and dependency intelligence pack \u2014 risk scores, heatmaps, mitigation strategies, and timeline-impact insights.",
+        "industryTags": [
+            "technology",
+            "product-management"
+        ],
+        "capabilityTags": [
+            "planning",
+            "risk-analysis",
+            "roadmapping"
+        ],
+        "personaFit": [
+            "product",
+            "engineering"
+        ],
+        "maturityLevel": "beta",
+        "demoModes": [
+            "guided"
+        ],
+        "techStack": [
+            "claude"
+        ],
+        "owner": "StatusNeo",
+        "lastUpdated": "2025-03-05T00:00:00Z",
+        "isFeatured": true,
+        "slug": "sync-ai-agent",
+        "href": "https://playground.statusneo.com/sync-ai/"
+    },
+    {
+        "id": "mason-unit-testing-agent",
+        "type": "sdlc_agent",
+        "title": "Mason \u2014 AI Unit Testing Agent",
+        "shortDescription": "AI-powered unit test generator that automatically creates comprehensive, meaningful test cases for your code \u2014 improving coverage, catching edge cases, and accelerating development cycles.",
+        "industryTags": [
+            "technology"
+        ],
+        "capabilityTags": [
+            "automation",
+            "testing",
+            "quality-assurance"
+        ],
+        "personaFit": [
+            "engineering"
+        ],
+        "maturityLevel": "beta",
+        "demoModes": [
+            "guided"
+        ],
+        "techStack": [
+            "claude"
+        ],
+        "owner": "StatusNeo",
+        "lastUpdated": "2025-03-05T00:00:00Z",
+        "isFeatured": true,
+        "slug": "mason-unit-testing-agent",
+        "href": "https://demo-testcraft.statusneo.com/unittesting"
+    },
+    {
+        "id": "code-review-agent",
+        "type": "sdlc_agent",
+        "title": "Hunter \u2014 AI Code Review Agent",
+        "shortDescription": "AI-powered PR reviewer that posts surgical inline comments on bugs, security holes, and logic errors \u2014 before they ship. Supports Claude, GPT-4o, Gemini, and Bedrock.",
+        "industryTags": [
+            "technology"
+        ],
+        "capabilityTags": [
+            "automation",
+            "security"
+        ],
+        "personaFit": [
+            "engineering"
+        ],
+        "maturityLevel": "beta",
+        "demoModes": [
+            "guided"
+        ],
+        "techStack": [
+            "github-api",
+            "openai"
+        ],
+        "owner": "DevEx Team",
+        "lastUpdated": "2024-01-25T00:00:00Z",
+        "isFeatured": true,
+        "slug": "code-review-agent"
+    }
+]

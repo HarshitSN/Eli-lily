@@ -1,0 +1,139 @@
+[
+    {
+        "id": "studio-synthesis",
+        "type": "product",
+        "title": "Studio Synthesis",
+        "shortDescription": "Transform Figma designs into production-ready code instantly with AI-powered design-to-code conversion.",
+        "industryTags": [
+            "technology",
+            "retail",
+            "bfsi"
+        ],
+        "capabilityTags": [
+            "design-to-code",
+            "ai",
+            "automation"
+        ],
+        "personaFit": [
+            "engineering",
+            "design",
+            "product"
+        ],
+        "maturityLevel": "beta",
+        "demoModes": [
+            "interactive"
+        ],
+        "interactiveUrl": "https://playground.statusneo.com/studio-synthesis",
+        "techStack": [
+            "figma",
+            "ai",
+            "llm",
+            "react"
+        ],
+        "owner": "Product Engineering",
+        "lastUpdated": "2026-02-23T00:00:00Z",
+        "isFeatured": true,
+        "slug": "studio-synthesis"
+    },
+    {
+        "id": "genesis",
+        "type": "product",
+        "title": "NeoGen",
+        "shortDescription": "Enterprise search and content creation tool powered by AI.",
+        "industryTags": [
+            "technology",
+            "bfsi",
+            "retail",
+            "manufacturing"
+        ],
+        "capabilityTags": [
+            "search",
+            "content creation",
+            "ai"
+        ],
+        "personaFit": [
+            "content",
+            "marketing",
+            "operations"
+        ],
+        "maturityLevel": "production",
+        "demoModes": [
+            "video"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "techStack": [
+            "ai",
+            "llm",
+            "search"
+        ],
+        "owner": "Product Engineering",
+        "lastUpdated": "2024-02-20T00:00:00Z",
+        "isFeatured": false,
+        "slug": "genesis"
+    },
+    {
+        "id": "testkraft-pro",
+        "type": "product",
+        "title": "Testkraft Pro",
+        "shortDescription": "Autonomous test generation and execution platform for enterprise apps.",
+        "industryTags": [
+            "bfsi",
+            "retail",
+            "manufacturing"
+        ],
+        "capabilityTags": [
+            "testing",
+            "automation"
+        ],
+        "personaFit": [
+            "qa",
+            "engineering"
+        ],
+        "maturityLevel": "beta",
+        "demoModes": [
+            "interactive"
+        ],
+        "interactiveUrl": "https://statusneo-demo.com/testkraft",
+        "techStack": [
+            "selenium",
+            "playwright",
+            "ai"
+        ],
+        "owner": "Product Engineering",
+        "lastUpdated": "2024-02-01T00:00:00Z",
+        "isFeatured": true,
+        "slug": "testkraft-pro"
+    },
+    {
+        "id": "nealenz",
+        "type": "product",
+        "title": "NeaLenz",
+        "shortDescription": "Observability and insights platform for distributed AI agents.",
+        "industryTags": [
+            "technology",
+            "bfsi"
+        ],
+        "capabilityTags": [
+            "monitoring",
+            "analytics"
+        ],
+        "personaFit": [
+            "ops",
+            "cto"
+        ],
+        "maturityLevel": "production",
+        "demoModes": [
+            "video"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "techStack": [
+            "prometheus",
+            "grafana",
+            "ai"
+        ],
+        "owner": "Platform Team",
+        "lastUpdated": "2024-01-10T00:00:00Z",
+        "isFeatured": false,
+        "slug": "nealenz"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "debugging-expert-agent",
+        "type": "super_agent",
+        "title": "Debugging Expert Agent",
+        "shortDescription": "Specialized agent that analyzes logs and code to root cause complex production incidents.",
+        "industryTags": [
+            "technology"
+        ],
+        "capabilityTags": [
+            "automation",
+            "diagnostics"
+        ],
+        "personaFit": [
+            "engineering",
+            "ops"
+        ],
+        "maturityLevel": "production",
+        "demoModes": [
+            "interactive"
+        ],
+        "interactiveUrl": "https://statusneo-demo.com/debug-agent",
+        "techStack": [
+            "gpt-4",
+            "elasticsearch"
+        ],
+        "owner": "SRE Team",
+        "lastUpdated": "2024-02-05T00:00:00Z",
+        "isFeatured": true,
+        "slug": "debugging-expert-agent"
+    }
+]
