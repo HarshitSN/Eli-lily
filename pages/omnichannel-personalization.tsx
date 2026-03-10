@@ -10,16 +10,21 @@ const agents = [
         redirectUrl: "https://playground.statusneo.com/chat?agent=pharmacovigilance"
     },
     {
+        title: "NeoGen",
+        description: "AI-powered personalized content generator.",
+        redirectUrl: "https://playground.statusneo.com/neogen"
+    },
+    {
         title: "Personalized HCP Engagement Content Generator",
-        description: "Different healthcare professionals require tailored messaging depending on their specialty, prescribing behavior, and engagement preferences.\n\nGenAI can dynamically generate personalized engagement content for email campaigns, digital engagement channels, and rep follow-ups.\n\nBusiness Outcomes:\n• Improve HCP engagement rates\n• Deliver more relevant messaging to physicians\n• Increase effectiveness of omnichannel campaigns"
+        description: "GenAI dynamically generates personalized engagement content for email campaigns, digital channels, and rep follow-ups tailored to each HCP's prescribing behavior."
     },
     {
         title: "Campaign Performance Intelligence Assistant",
-        description: "Marketing teams need to continuously evaluate performance across multiple channels such as email, digital campaigns, webinars, and rep engagements.\n\nGenAI can automatically analyze campaign data and generate performance insights and optimization recommendations.\n\nBusiness Outcomes:\n• Faster campaign optimization cycles\n• Improved ROI on marketing investments\n• Better visibility into channel performance"
+        description: "Automatically analyze cross-channel campaign data to generate performance insights and rapid optimization recommendations."
     },
     {
         title: "Omnichannel Journey Optimization Engine",
-        description: "Healthcare professional engagement journeys can involve multiple touchpoints across digital and field channels.\n\nGenAI can analyze engagement data and recommend improvements to channel sequencing, timing of engagement, and content relevance.\n\nBusiness Outcomes:\n• Improve HCP experience and engagement\n• Increase campaign effectiveness\n• Enable continuous optimization of engagement strategies"
+        description: "Analyze engagement data to recommend optimal channel sequencing and content relevance for healthcare professional interaction journeys."
     }
 ];
 

@@ -5,7 +5,7 @@ import { ActionableCard } from "@/components/verticals/ActionableCard";
 const agents = [
     {
         title: "AI-Powered Commercial Insights Generator",
-        description: "Commercial analytics teams often spend significant time synthesizing large volumes of market data, prescription trends, HCP engagement metrics, and sales performance reports.\n\nA Generative AI assistant can automatically analyze structured and unstructured commercial data sources and generate insight summaries and narrative reports for brand and commercial leaders.\n\nBusiness Outcomes:\n• Reduce time spent preparing analytics reports by 40-60%\n• Accelerate insight-to-decision cycles for brand strategy\n• Enable faster identification of emerging market opportunities or risks"
+        description: "Automatically analyze structured and unstructured commercial data sources to generate insight summaries and narrative reports for brand and commercial leaders."
     },
     {
         title: "NeoAnalytics",
@@ -14,11 +14,19 @@ const agents = [
     },
     {
         title: "Conversational Commercial Analytics Assistant",
-        description: "Commercial leaders and brand teams often depend on analyst teams to retrieve data or generate dashboards.\n\nA conversational AI interface can allow users to ask natural language questions such as:\n• \"What were the prescription trends for diabetes therapeutics the Northeast region last quarter?\"\n• \"Which HCP segments showed the highest engagement after our latest campaign?\"\n\nThe system retrieves relevant data and generates contextualized answers and visual insights.\n\nBusiness Outcomes:\n• Democratize access to analytics across commercial teams\n• Reduce dependency on manual analytics requests\n• Improve speed and quality of data-driven decision-making"
+        description: "A GenAI assistant that allows commercial leaders to query market share, brand performance, and sales data using natural language."
+    },
+    {
+        title: "Predictive Sales Forecasting Engine",
+        description: "Accurate forecasting models that integrate historical sales, market events, competitor actions, and seasonality for localized predictions."
+    },
+    {
+        title: "Automated Executive Reporting Generator",
+        description: "Automatically synthesize complex datasets into concise, narrative business review reports for executives."
     },
     {
         title: "Market Intelligence Synthesis Engine",
-        description: "Pharma companies constantly monitor external data sources including clinical publications, competitive launches, regulatory announcements, and market access developments.\n\nGenAI can continuously ingest and summarize these sources to create automated competitive intelligence briefings for brand teams.\n\nBusiness Outcomes:\n• Provide near real-time competitive intelligence\n• Improve brand planning and launch readiness\n• Reduce manual research effort for commercial analytics teams"
+        description: "GenAI continuously ingests and summarizes external data sources (clinical publications, competitive launches, regulatory announcements) to create automated competitive intelligence briefings for brand teams."
     }
 ];
 

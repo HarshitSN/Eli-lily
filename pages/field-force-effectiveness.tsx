@@ -10,15 +10,15 @@ const agents = [
     },
     {
         title: "AI Rep Copilot for HCP Engagement",
-        description: "Sales representatives must prepare for interactions with healthcare professionals by reviewing HCP profiles, historical engagement, prescribing patterns, and relevant clinical updates.\n\nA GenAI-powered Rep Copilot can automatically generate personalized briefing notes before each HCP interaction.\n\nBusiness Outcomes:\n• Improve quality of HCP interactions\n• Increase rep productivity and preparation efficiency\n• Enable more personalized and relevant conversations with physicians"
+        description: "Automatically generate personalized briefing notes summarizing HCP profiles, interaction history, and prescribing patterns before each field visit."
     },
     {
         title: "Intelligent Next-Best-Action Recommendation Engine",
-        description: "GenAI can analyze HCP engagement history, prescribing behavior, omnichannel interactions, and market trends to generate next-best-action recommendations for field representatives.\n\nExamples: Recommend which physicians to prioritize, suggest follow-up actions after engagements, and identify potential prescribing opportunity segments.\n\nBusiness Outcomes:\n• Improve targeting effectiveness\n• Increase return on field force investments\n• Drive higher HCP engagement and prescribing impact"
+        description: "Analyze engagement history and market trends to generate prioritized next-best-action recommendations for field representatives."
     },
     {
         title: "Field Feedback Intelligence System",
-        description: "Field representatives collect valuable qualitative insights from physicians, but these are often stored as unstructured notes.\n\nGenAI can analyze these notes to extract patterns such as treatment concerns, competitive positioning insights, and feedback on clinical evidence.\n\nBusiness Outcomes:\n• Capture real-time market insights from field interactions\n• Improve commercial strategy responsiveness\n• Enable faster feedback loops between field teams and brand strategy"
+        description: "Extract actionable patterns like treatment concerns and competitive insights from unstructured field representative notes."
     }
 ];
 

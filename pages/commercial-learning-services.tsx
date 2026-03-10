@@ -1,19 +1,19 @@
 import Head from "next/head";
 import { Layout } from "@/components/layout/Layout";
-import { VerticalCard } from "@/components/verticals/VerticalCard";
+import { ActionableCard } from "@/components/verticals/ActionableCard";
 
 const agents = [
     {
         title: "AI-Assisted Training Content Development",
-        description: "Training programs for sales representatives and commercial teams require continuous updates as new clinical data or product information emerges.\n\nGenAI can automatically generate training modules, scripts, assessments, and job aids from approved medical and product materials.\n\nBusiness Outcomes:\n• Reduce time required to create training materials\n• Accelerate onboarding for new sales representatives\n• Improve scalability of training programs"
+        description: "Automatically generate training modules, scripts, assessments, and job aids from approved medical and product materials."
     },
     {
         title: "Learning Copilot for Field Teams",
-        description: "Sales representatives frequently need quick access to product knowledge and clinical information while preparing for physician interactions.\n\nA conversational GenAI assistant can answer questions suchs as:\n• \"What are the key differentiators of our therapy versus competitors?\"\n• \"What clinical evidence supports this indication?\"\n\nBusiness Outcomes:\n• Improve field team knowledge and confidence\n• Enable faster access to critical information\n• Improve quality of HCP interactions"
+        description: "A conversational GenAI assistant that provides sales representatives with quick access to product knowledge and clinical information while preparing for physician interactions."
     },
     {
         title: "Market Intelligence Synthesis Engine",
-        description: "Learning programs often lack clear insights into whether training improves commercial performance.\n\nGenAI can analyze training engagement, knowledge assessments, and field performance data to generate insights on training effectiveness.\n\nBusiness Outcomes:\n• Identify knowledge gaps in commercial teams\n• Improve training program design\n• Link learning outcomes to business performance"
+        description: "Analyze training engagement, knowledge assessments, and field performance data to generate actionable insights on training effectiveness."
     }
 ];
 
@@ -39,7 +39,7 @@ export default function CommercialLearningServicesPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {agents.map((agent) => (
-                            <VerticalCard
+                            <ActionableCard
                                 key={agent.title}
                                 title={agent.title}
                                 description={agent.description}

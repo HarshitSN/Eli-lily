@@ -33,73 +33,72 @@ export function Navbar() {
     ];
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-50 flex justify-center w-full">
-            <nav className="flex items-center gap-3 px-3 sm:px-4 lg:px-6 py-3 sm:py-4 bg-white border-b border-gray-200 text-gray-800 w-full mx-auto transition-all">
-                <div className="flex items-center justify-between w-full">
-                    {/* Logo - much smaller on mobile */}
-                    <div className="flex items-center gap-2 sm:gap-4 lg:gap-6 flex-shrink-0">
-                        <a href="https://www.lilly.com/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 sm:space-x-2">
-                            <img src="/lilly-logo.svg" alt="Eli Lilly Logo" className="h-5 w-auto sm:h-6 lg:h-7" />
-                        </a>
-                    </div>
+        <div className="fixed top-4 left-0 right-0 z-50 flex justify-center w-full px-4 sm:px-6 lg:px-8">
+            <nav className="flex items-center justify-between px-6 py-3 bg-gray-50/90 backdrop-blur-md rounded-full shadow-sm text-gray-800 w-full max-w-6xl mx-auto border border-gray-200/50">
 
-                    {/* Desktop Navigation - better responsive spacing */}
-                    <div className="hidden lg:flex items-center space-x-3 xl:space-x-5 text-sm font-medium">
-                        {navItems.map((item) => (
-                            <Link
-                                key={item.href}
-                                href={item.href}
-                                className={`transition-all duration-200 hover:text-red-400 hover:scale-105 whitespace-nowrap ${isActive(item.href) ? "text-red-400 font-semibold" : "text-gray-600"
-                                    }`}
-                            >
-                                {item.label}
-                            </Link>
-                        ))}
-                    </div>
+                {/* Logo */}
+                <div className="flex items-center flex-shrink-0">
+                    <a href="https://www.lilly.com/" target="_blank" rel="noopener noreferrer" className="flex items-center hover:opacity-80 transition-opacity">
+                        <img src="/lilly-logo.svg" alt="Eli Lilly Logo" className="h-6 sm:h-7 w-auto" />
+                    </a>
+                </div>
 
-                    {/* Tablet Navigation - compact version */}
-                    <div className="hidden md:flex lg:hidden items-center space-x-2 text-xs font-medium">
-                        {navItems.slice(0, 3).map((item) => (
-                            <Link
-                                key={item.href}
-                                href={item.href}
-                                className={`transition-all duration-200 hover:text-red-400 hover:scale-105 whitespace-nowrap ${isActive(item.href) ? "text-red-400 font-semibold" : "text-gray-600"
-                                    }`}
-                            >
-                                {item.label.length > 12 ? item.label.split(' ')[0] : item.label}
-                            </Link>
-                        ))}
-                        <span className="text-gray-400">...</span>
-                    </div>
-
-                    {/* Desktop User Info */}
-                    <div className="hidden lg:flex items-center gap-2 flex-shrink-0">
-                        <span className="text-xs text-gray-600 truncate max-w-[150px]">
-                            {user?.email}
-                        </span>
-                        <button
-                            onClick={logout}
-                            className="px-2 py-1 text-xs font-medium text-gray-600 hover:text-gray-800 transition-colors duration-200 whitespace-nowrap"
+                {/* Desktop Navigation */}
+                <div className="hidden lg:flex items-center justify-center flex-1 space-x-6 text-sm font-medium">
+                    {navItems.map((item) => (
+                        <Link
+                            key={item.href}
+                            href={item.href}
+                            className={`transition-all duration-200 hover:text-red-400 hover:scale-105 whitespace-nowrap ${isActive(item.href) ? "text-red-400 font-semibold" : "text-gray-600"
+                                }`}
                         >
-                            Logout
-                        </button>
-                    </div>
+                            {item.label}
+                        </Link>
+                    ))}
+                </div>
 
-                    {/* Mobile Menu Button */}
+                {/* Tablet Navigation - compact version */}
+                <div className="hidden md:flex lg:hidden items-center space-x-2 text-xs font-medium">
+                    {navItems.slice(0, 3).map((item) => (
+                        <Link
+                            key={item.href}
+                            href={item.href}
+                            className={`transition-all duration-200 hover:text-red-400 hover:scale-105 whitespace-nowrap ${isActive(item.href) ? "text-red-400 font-semibold" : "text-gray-600"
+                                }`}
+                        >
+                            {item.label.length > 12 ? item.label.split(' ')[0] : item.label}
+                        </Link>
+                    ))}
+                    <span className="text-gray-400">...</span>
+                </div>
+
+                {/* Desktop User Info */}
+                <div className="hidden lg:flex items-center gap-4 flex-shrink-0">
+                    <span className="text-xs text-gray-500 font-medium truncate max-w-[150px]">
+                        {user?.email}
+                    </span>
                     <button
-                        onClick={handleMobileMenuToggle}
-                        className="md:hidden p-1.5 sm:p-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-200/50 transition-colors flex-shrink-0"
-                        aria-label="Toggle mobile menu"
+                        onClick={logout}
+                        className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors duration-200"
                     >
-                        {isMobileMenuOpen ? (
-                            <X className="h-4 w-4 sm:h-5 sm:w-5" />
-                        ) : (
-                            <Menu className="h-4 w-4 sm:h-5 sm:w-5" />
-                        )}
+                        Logout
                     </button>
                 </div>
 
-                {/* Mobile Menu */}
+                {/* Mobile Menu Button */}
+                <button
+                    onClick={handleMobileMenuToggle}
+                    className="lg:hidden p-2 rounded-full text-gray-600 hover:text-gray-900 hover:bg-gray-200/50 transition-colors"
+                    aria-label="Toggle mobile menu"
+                >
+                    {isMobileMenuOpen ? (
+                        <X className="h-5 w-5" />
+                    ) : (
+                        <Menu className="h-5 w-5" />
+                    )}
+                </button>
+
+                {/* Mobile Menu Dropdown */}
                 {isMobileMenuOpen && (
                     <div className="absolute top-full left-0 right-0 mt-2 mx-2 sm:mx-4 bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
                         <div className="flex flex-col p-3 sm:p-4 space-y-2 sm:space-y-3">
@@ -114,21 +113,19 @@ export function Navbar() {
                                     {item.label}
                                 </Link>
                             ))}
-                            <div className="border-t border-gray-200 pt-3 mt-2">
-                                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-                                    <span className="text-xs text-gray-600 truncate max-w-[200px]">
-                                        {user?.email}
-                                    </span>
-                                    <button
-                                        onClick={() => {
-                                            logout();
-                                            handleLinkClick();
-                                        }}
-                                        className="px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-gray-800 transition-colors duration-200 text-left sm:text-right"
-                                    >
-                                        Logout
-                                    </button>
-                                </div>
+                            <div className="border-t border-gray-200 pt-3 mt-2 flex flex-col gap-2">
+                                <span className="text-xs text-gray-500 px-3">
+                                    {user?.email}
+                                </span>
+                                <button
+                                    onClick={() => {
+                                        logout();
+                                        handleLinkClick();
+                                    }}
+                                    className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200 text-left rounded-md"
+                                >
+                                    Logout
+                                </button>
                             </div>
                         </div>
                     </div>
