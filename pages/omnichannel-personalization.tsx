@@ -10,13 +10,9 @@ const agents = [
         redirectUrl: "https://playground.statusneo.com/chat?agent=pharmacovigilance"
     },
     {
-        title: "NeoGen",
-        description: "AI-powered personalized content generator.",
-        redirectUrl: "https://playground.statusneo.com/neogen"
-    },
-    {
         title: "Personalized HCP Engagement Content Generator",
-        description: "GenAI dynamically generates personalized engagement content for email campaigns, digital channels, and rep follow-ups tailored to each HCP's prescribing behavior."
+        description: "GenAI dynamically generates personalized engagement content for email campaigns, digital channels, and rep follow-ups tailored to each HCP's prescribing behavior.",
+        redirectUrl: "https://playground.statusneo.com/neogen"
     },
     {
         title: "Campaign Performance Intelligence Assistant",
@@ -33,7 +29,7 @@ export default function OmnichannelPersonalizationPage() {
         <Layout>
             <Head>
                 <title>OMNICHANNEL & PERSONALIZATION - Eli Lilly AI Playground</title>
-                <meta name="description" content="Explore our Omnichannel & Personalization agents." />
+                <meta name="description" content="Explore Lilly's Omnichannel & Personalization agents." />
             </Head>
 
             <section className="py-24 bg-gradient-to-b from-slate-50 to-white min-h-screen">
@@ -44,7 +40,7 @@ export default function OmnichannelPersonalizationPage() {
                             OMNICHANNEL & PERSONALIZATION
                         </h2>
                         <p className="text-lg text-slate-500 max-w-2xl mx-auto font-light">
-                            Explore specialized omnichannel personalization agents designed to optimize your commercial decision workflows.
+                            Explore Lilly's specialized omnichannel personalization agents designed to optimize your commercial decision workflows.
                         </p>
                     </div>
 

@@ -16,13 +16,26 @@ export function ActionableCard({
     demoUrl = "#",
     tryUrl = "#",
 }: ActionableCardProps) {
+    const isActive = tryUrl && tryUrl !== "#";
+
     return (
-        <div className="flex flex-col bg-white border border-gray-100 rounded-2xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.1)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all duration-300 h-full p-5 text-left">
+        <div className="flex flex-col bg-white border border-gray-100 rounded-2xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.1)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all duration-300 h-full p-5 text-left relative">
 
             {/* Header / Title */}
-            <h3 className="text-[16px] font-bold text-gray-900 mb-2 tracking-tight leading-snug">
-                {title}
-            </h3>
+            <div className="flex items-start justify-between gap-3 mb-2">
+                <h3 className="text-[16px] font-bold text-gray-900 tracking-tight leading-snug">
+                    {title}
+                </h3>
+                {isActive ? (
+                    <div className="flex-shrink-0 px-3 py-1 bg-emerald-500 text-white rounded-full text-[10px] font-bold tracking-wide">
+                        Active
+                    </div>
+                ) : (
+                    <div className="flex-shrink-0 px-3 py-1 bg-amber-400 text-slate-900 rounded-full text-[10px] font-bold tracking-wide">
+                        Pending
+                    </div>
+                )}
+            </div>
 
             {/* Description Body */}
             <p className="text-[13px] text-gray-500 mb-4 flex-grow leading-relaxed font-normal">

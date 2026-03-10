@@ -72,17 +72,8 @@ export function Navbar() {
                     <span className="text-gray-400">...</span>
                 </div>
 
-                {/* Desktop User Info */}
-                <div className="hidden lg:flex items-center gap-4 flex-shrink-0">
-                    <span className="text-xs text-gray-500 font-medium truncate max-w-[150px]">
-                        {user?.email}
-                    </span>
-                    <button
-                        onClick={logout}
-                        className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors duration-200"
-                    >
-                        Logout
-                    </button>
+                {/* Desktop User Info Removed */}
+                <div className="hidden lg:flex items-center flex-shrink-0">
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -113,20 +104,7 @@ export function Navbar() {
                                     {item.label}
                                 </Link>
                             ))}
-                            <div className="border-t border-gray-200 pt-3 mt-2 flex flex-col gap-2">
-                                <span className="text-xs text-gray-500 px-3">
-                                    {user?.email}
-                                </span>
-                                <button
-                                    onClick={() => {
-                                        logout();
-                                        handleLinkClick();
-                                    }}
-                                    className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200 text-left rounded-md"
-                                >
-                                    Logout
-                                </button>
-                            </div>
+                            {/* Removed Indicators from mobile */}
                         </div>
                     </div>
                 )}

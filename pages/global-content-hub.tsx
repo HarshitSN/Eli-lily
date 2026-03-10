@@ -23,7 +23,7 @@ export default function GlobalContentHubPage() {
         <Layout>
             <Head>
                 <title>GLOBAL CONTENT HUB (GCH) - Eli Lilly AI Playground</title>
-                <meta name="description" content="Explore our Global Content Hub agents." />
+                <meta name="description" content="Explore Lilly's Global Content Hub agents." />
             </Head>
 
             <section className="py-24 bg-gradient-to-b from-slate-50 to-white min-h-screen">
@@ -34,7 +34,7 @@ export default function GlobalContentHubPage() {
                             GLOBAL CONTENT HUB (GCH)
                         </h2>
                         <p className="text-lg text-slate-500 max-w-2xl mx-auto font-light">
-                            Explore specialized content hub agents designed to optimize your commercial decision workflows.
+                            Explore Lilly's specialized content hub agents designed to optimize your commercial decision workflows.
                         </p>
                     </div>
 

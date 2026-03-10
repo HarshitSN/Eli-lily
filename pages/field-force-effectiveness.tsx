@@ -27,7 +27,7 @@ export default function FieldForceEffectivenessPage() {
         <Layout>
             <Head>
                 <title>GOSO – FIELD FORCE EFFECTIVENESS & INNOVATION - Eli Lilly AI Playground</title>
-                <meta name="description" content="Explore our Field Force Effectiveness agents." />
+                <meta name="description" content="Explore Lilly's Field Force Effectiveness agents." />
             </Head>
 
             <section className="py-24 bg-gradient-to-b from-slate-50 to-white min-h-screen">

@@ -8,13 +8,9 @@ const agents = [
         description: "Automatically analyze structured and unstructured commercial data sources to generate insight summaries and narrative reports for brand and commercial leaders."
     },
     {
-        title: "NeoAnalytics",
-        description: "AI-powered data analytics and automated report generation with natural language queries.",
-        redirectUrl: "https://playground.statusneo.com/report-agent"
-    },
-    {
         title: "Conversational Commercial Analytics Assistant",
-        description: "A GenAI assistant that allows commercial leaders to query market share, brand performance, and sales data using natural language."
+        description: "A GenAI assistant that allows commercial leaders to query market share, brand performance, and sales data using natural language.",
+        redirectUrl: "https://playground.statusneo.com/report-agent"
     },
     {
         title: "Predictive Sales Forecasting Engine",
@@ -35,7 +31,7 @@ export default function BusinessIntelligencePage() {
         <Layout>
             <Head>
                 <title>BUSINESS INTELLIGENCE & ANALYTICS (BI&A) - Eli Lilly AI Playground</title>
-                <meta name="description" content="Explore our Business Intelligence & Analytics agents." />
+                <meta name="description" content="Explore Lilly's Business Intelligence & Analytics agents." />
             </Head>
 
             <section className="py-24 bg-gradient-to-b from-slate-50 to-white min-h-screen">
@@ -46,7 +42,7 @@ export default function BusinessIntelligencePage() {
                             BUSINESS INTELLIGENCE & ANALYTICS (BI&A)
                         </h2>
                         <p className="text-lg text-slate-500 max-w-2xl mx-auto font-light">
-                            Explore specialized business intelligence and analytical agents designed to optimize your commercial decision workflows.
+                            Explore Lilly's specialized business intelligence and analytical agents designed to optimize your commercial decision workflows.
                         </p>
                     </div>
 

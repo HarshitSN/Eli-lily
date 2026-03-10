@@ -22,7 +22,7 @@ export default function CommercialLearningServicesPage() {
         <Layout>
             <Head>
                 <title>COMMERCIAL LEARNING SERVICES (CLS) - Eli Lilly AI Playground</title>
-                <meta name="description" content="Explore our Commercial Learning Services agents." />
+                <meta name="description" content="Explore Lilly's Commercial Learning Services agents." />
             </Head>
 
             <section className="py-24 bg-gradient-to-b from-slate-50 to-white min-h-screen">
@@ -33,7 +33,7 @@ export default function CommercialLearningServicesPage() {
                             COMMERCIAL LEARNING SERVICES (CLS)
                         </h2>
                         <p className="text-lg text-slate-500 max-w-2xl mx-auto font-light">
-                            Explore specialized training agents designed to optimize your commercial decision workflows.
+                            Explore Lilly's specialized training agents designed to optimize your commercial decision workflows.
                         </p>
                     </div>
 
