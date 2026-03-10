@@ -39,7 +39,7 @@ export function Hero() {
                 </p>
 
                 {/* --- CENTERED SEARCH BAR --- */}
-                <div className="relative w-full max-w-md sm:max-w-lg mx-auto pt-4 sm:pt-6 group">
+                <div className="relative w-full max-w-md sm:max-w-lg mx-auto pt-4 sm:pt-6 group mb-4">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none text-slate-500 z-10">
                         <Search className="w-5 h-5" />
                     </div>
@@ -51,6 +51,10 @@ export function Hero() {
                         placeholder="Search for agents, solutions, or products..."
                         className="h-14 w-full pl-12 pr-6 rounded-md text-base shadow-sm border border-slate-300 focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 transition-all bg-white placeholder:text-slate-400"
                     />
+                </div>
+
+                <div className="text-sm font-medium text-slate-400 pt-2">
+                    Powered by <span className="text-slate-600 font-bold">StatusNeo</span>
                 </div>
             </div>
         </section>
